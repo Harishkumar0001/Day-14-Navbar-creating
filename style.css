@@ -20,9 +20,11 @@ html,body {
     width: 100%;
     background-color: white;
     background-image: url("./front\ image.jpg");
-    background-position: center;
-    background-size: cover;
+    background-position-x: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    
+
 }
 
 #navbar{
@@ -85,14 +87,14 @@ html,body {
 
 #hero button{
   position: absolute;
-  margin-top: 28%;
+  margin-top: 38%;
   padding: 14px 42px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
 
   color: white;
-  background: transparent;
+  background: black;
   backdrop-filter: blur(8px);
 
   border: none;
@@ -108,6 +110,16 @@ html,body {
   color: black;
   transform: translateY(-3px);
   box-shadow: 0 14px 35px rgba(0,0,0,0.4);
+}
+
+ p{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 610px;
+    left: 15px;
+    font-family: Hey;
+    font-weight: 500;
 }
 
 
